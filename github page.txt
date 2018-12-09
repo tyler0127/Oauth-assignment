@@ -1,0 +1,2 @@
+ng build --prod --base-href "https://tyler0127.github.io/Oauth-assignment/
+ngh --dir dist/OAuth --repo=https://github.com/tyler0127/Oauth-assignment.git --no-silent
