@@ -13,6 +13,6 @@ export class LoginComponent implements OnInit {
     ngOnInit() {
     }
     getAuthCode() {
-        window.location.href = 'http://140.118.110.32:50080/oauth/web/authorize?response_type=code&client_id=m10709305&state=programming_homework_2&redirect_uri=https://tyler0127.github.io/Oauth-assignment/auth';
+        window.location.href = 'http://140.118.110.32:50080/oauth/web/authorize?response_type=code&client_id=m10709305&state=programming_homework_2&redirect_uri=http://localhost:4200/auth';
     }
 }
